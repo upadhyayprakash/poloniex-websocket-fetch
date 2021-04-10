@@ -1,0 +1,11 @@
+# Steps to Test WebSocket API: (Go and WS CLI utility)
+1. Download the Linux distro for go from official website
+  - Extract the file "go1.16.3.linux-amd64.tar.gz" in /usr/local.
+  - Add its path to $PATH env variable: "export PATH=$PATH:/usr/local/go/bin"
+  - Test the installation with "go version"
+2. Install "ws" client
+  - Run, "go get -u github.com/hashrocket/ws"
+  - Add to path, "export PATH=$PATH:~/go/bin"
+  - Test with "ws" command:
+      ws wss://api2.poloniex.com
+      {"command": "subscribe", "channel": 1002}
