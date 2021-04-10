@@ -5,7 +5,8 @@ from poloniex import Poloniex
 polo = Poloniex()
 
 # show the ticker
-print(polo('returnTicker'))
+# print(polo('returnTicker'))
+print(polo.returnTicker())
 
 
 # **** ATTEMPT-1
