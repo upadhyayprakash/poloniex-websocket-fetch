@@ -1,0 +1,2 @@
+poloniexapi==0.5.7
+poloniex==0.0.17
